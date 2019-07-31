@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#fff"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DapAnActivity">
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adViewDapan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-8428307888801088/3455266418">
+    </com.google.android.gms.ads.AdView>
+
+    <TextView
+        android:id="@+id/textViewKetQua"
+        android:layout_below="@id/adViewDapan"
+        android:text="Kết quả"
+        android:textColor="#F44336"
+        android:textSize="22sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/textViewDapAnDung"
+        android:layout_below="@id/textViewKetQua"
+        android:textSize="20sp"
+        android:textColor="#F44336"
+        android:text="Đáp án đúng là: A"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:background="@drawable/background_cauhoi"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_below="@id/textViewDapAnDung"
+        android:layout_width="match_parent"
+        android:layout_height="300dp">
+
+        <TextView
+            android:id="@+id/textViewChuThich"
+            android:text="Chú thích"
+            android:textSize="18sp"
+            android:textColor="#000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </ScrollView>
+
+    <Button
+        android:id="@+id/buttonNext"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/scrollView"
+        android:text="Tiếp theo"
+        android:background="@drawable/button_answer"
+        android:layout_marginTop="10dp"
+        android:textSize="18sp"
+        android:textColor="#fff"
+        android:textAllCaps="false"
+        android:layout_width="130dp"
+        android:layout_height="50dp" />
+
+    <Button
+        android:id="@+id/buttonExit"
+        android:background="@drawable/button_play"
+        android:textColor="#fff"
+        android:layout_marginTop="15dp"
+        android:layout_below="@id/buttonNext"
+        android:layout_centerHorizontal="true"
+        android:text="Thoát"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:layout_width="130dp"
+        android:layout_height="50dp" />
+
+</RelativeLayout>

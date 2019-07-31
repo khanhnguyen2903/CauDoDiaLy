@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "112406367457",
+    "firebase_url": "https://cau-do-dia-ly.firebaseio.com",
+    "project_id": "cau-do-dia-ly",
+    "storage_bucket": "cau-do-dia-ly.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:112406367457:android:746c508bbe9bccae",
+        "android_client_info": {
+          "package_name": "khanh.aloha.caudodialy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "112406367457-m1e1pjba2dhvlndsl892mcfpuo3507pd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAdYXxGnVxvN32TIDNOrMwMzGecNTwpDQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "112406367457-m1e1pjba2dhvlndsl892mcfpuo3507pd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:112406367457:android:a3111decb03a565f",
+        "android_client_info": {
+          "package_name": "khanh.aloha.tracnghiemdialy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "112406367457-m1e1pjba2dhvlndsl892mcfpuo3507pd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAdYXxGnVxvN32TIDNOrMwMzGecNTwpDQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "112406367457-m1e1pjba2dhvlndsl892mcfpuo3507pd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
